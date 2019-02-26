@@ -1,0 +1,226 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background: rgba(2, 22, 51, 0.795);
+    color: white;
+    vertical-align: center;
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+    margin: 14px 20px;
+    border-radius: 15px;
+}
+
+.header>div {
+    display: inline-block;
+    margin: 14px;
+    position: absolute;
+    top: 0%;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.fn {
+    display: inline-block;
+    width: 15%;
+    height: 90%;
+    background: rgba(2, 22, 51, 0.658);
+    color: white;
+    font-size: 14px;
+}
+
+.fn .fn-header {
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.fn .fn-content li {
+    padding-left: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+/* .fn .fn-content li:hover{
+    background:rgb(211, 209, 209);
+    color: rgba(2, 22, 51, 0.658);
+} */
+.fn .fn-content .active {
+    background: rgb(211, 209, 209);
+    color: rgba(2, 22, 51, 0.658);
+}
+
+.data {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 85%;
+    height: 90%;
+    background: rgb(211, 209, 209);
+    overflow: auto;
+
+}
+
+.data table {
+    box-sizing: border-box;
+    width: 96%;
+    padding: 10px;
+    margin: 0 2%;
+}
+
+.none {
+    display: none !important;
+}
+
+form {
+    display: none;
+}
+
+.data table thead tr {
+    width: 100%;
+}
+
+.data table thead tr td {
+    width: 12.5%;
+    text-align: center;
+    color: rgba(2, 22, 51, 0.795);
+    font-weight: bolder;
+}
+
+.data table tbody {
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+/* .data table tbody tr{
+    box-sizing: border-box;
+    margin: 0 20px;
+} */
+.data table tbody tr td {
+    text-align: center;
+}
+
+.data .form-horizontal {
+    /* display: none; */
+    margin-top: 8%;
+}
+
+.data .form-horizontal .form-group {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: 100%;
+    padding-left: 80px;
+}
+
+.data .form-horizontal .form-group .btn-default {
+    margin-right: 50px;
+}
+
+.data .form-horizontal .form-control {
+    width: 80%;
+}
+
+.data .col-sm-2 {
+    width: 30% !important;
+}
+
+.data .col-sm-10 {
+    width: 30% !important;
+}
+
+.data .col-sm-offset-2 {
+    margin-left: 324px !important;
+}
+
+.data p {
+    height: 14px;
+    line-height: 14px;
+}
+
+.data .emailPosition,
+.phonePosition,
+.stuidPosition {
+    position: relative;
+}
+
+.data .form-group .emailTest,
+.stuidTest,
+.phoneTest {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 58%;
+}
+
+.againSub {
+    width: 100%;
+    /* height: 100%; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(141, 141, 141);
+    z-index: 2;
+}
+
+.againSub .form-horizontal {
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    display: inline-block;
+    width: 50%;
+}
+
+.againSub .form-horizontal .form-group {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.againSub .form-control {
+    width: 50%;
+}
+
+.againSub .emailLocal,
+.phoneLocal,
+.stuidLocal {
+    position: relative;
+}
+
+.againSub .form-group .emailTest,
+.stuidTest,
+.phoneTest {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 60%;
+}
+.data .move{
+    position: relative;
+}
+.data .move .btn_submit{
+    position: absolute;
+    left: 118px;
+    bottom: -40px;
+}
